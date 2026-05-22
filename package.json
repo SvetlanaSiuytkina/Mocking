@@ -1,0 +1,32 @@
+{
+  "name": "mocking",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/SvetlanaSiuytkina/Mocking#readme",
+  "bugs": {
+    "url": "https://github.com/SvetlanaSiuytkina/Mocking/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SvetlanaSiuytkina/Mocking.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.5",
+    "@eslint/js": "^10.0.1",
+    "core-js": "^3.49.0",
+    "eslint": "^10.4.0",
+    "eslint-plugin-jest": "^29.15.2",
+    "globals": "^17.6.0",
+    "jest": "^30.4.2"
+  }
+}
