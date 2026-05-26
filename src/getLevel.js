@@ -9,7 +9,7 @@ export default function getLevel(userId) {
     } else {
       return 'Информация об уровне временно недоступна';
     }
-  } catch (error) {
+  } catch {
     return 'Информация об уровне временно недоступна';
   }
 }
